@@ -1,0 +1,14 @@
+package com.demo.microservices.domain;
+
+import javax.persistence.Entity;
+
+import org.springframework.data.annotation.Id;
+
+@Entity
+public class Tour {
+
+	@Id
+
+	private Integer id;
+
+}
